@@ -2,18 +2,19 @@
 The File Hiding System with Secure Access and User Management is a Java-based project that provides users with a secure and efficient way to safeguard their files. This application emphasizes privacy and data security by allowing users to hide files in a MySQL database, implementing multi-factor authentication through email OTP verification.
 
 Key Features
-> File Hiding and Retrieval: Users can securely hide files within a centralized MySQL database. Files are encrypted to prevent unauthorized access, and can be retrieved and decrypted whenever needed.
-> User Authentication and Management: Supports multiple user accounts, ensuring that only authorized users can access their hidden files through robust authentication mechanisms.
-> Email OTP Verification: During signup and login, users receive OTPs via email for verification, adding an extra layer of security.
-> User-Friendly Interface: The command-line interface is intuitive and easy to navigate, making the signup, login, and file management processes straightforward.
-> Efficient Data Management: Seamless integration of Java with MySQL ensures efficient data storage and retrieval.
+  > File Hiding and Retrieval: Users can securely hide files within a         centralized MySQL database. Files are encrypted to prevent unauthorized       access, and can be retrieved and decrypted whenever needed.
+  > User Authentication and Management: Supports multiple user accounts,       ensuring that only authorized users can access their hidden files through   robust authentication mechanisms.
+  > Email OTP Verification: During signup and login, users receive OTPs via   email for verification, adding an extra layer of security.
+  > User-Friendly Interface: The command-line interface is intuitive and       easy to navigate, making the signup, login, and file management processes   straightforward.
+  > Efficient Data Management: Seamless integration of Java with MySQL         ensures efficient data storage and retrieval.
+
 Tech Stack
-> Java: The core language used for implementing the application logic.
-> JDBC (Java Database Connectivity): Used to connect and interact with the MySQL database.
-> MySQL: The relational database system used to securely store user information and hidden files.
-> JavaMail API: Used for sending OTPs to users' email addresses for verification during signup and login.
-> DAO Pattern: Data Access Object pattern used for managing interactions with the database.
-> File I/O: Java’s file handling mechanisms are used for hiding and retrieving files.
+  > Java: The core language used for implementing the application logic.
+  > JDBC (Java Database Connectivity): Used to connect and interact with the   MySQL database.
+  > MySQL: The relational database system used to securely store user         information and hidden files.
+  > JavaMail API: Used for sending OTPs to users' email addresses for         verification during signup and login.
+  > DAO Pattern: Data Access Object pattern used for managing interactions     with the database.
+  > File I/O: Java’s file handling mechanisms are used for hiding and         retrieving files.
 Usage
 1. Signup:
   > New users can sign up using their email IDs.
