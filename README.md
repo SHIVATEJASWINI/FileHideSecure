@@ -2,7 +2,7 @@
 The File Hiding System with Secure Access and User Management is a Java-based project that provides users with a secure and efficient way to safeguard their files. This application emphasizes privacy and data security by allowing users to hide files in a MySQL database, implementing multi-factor authentication through email OTP verification.
 
 Key Features
-  > File Hiding and Retrieval: Users can securely hide files within a         centralized MySQL database. Files are encrypted to prevent unauthorized       access, and can be retrieved and decrypted whenever needed.
+  > File Hiding and Retrieval: Users can securely hide files within a         centralized MySQL database. Files are encrypted to prevent unauthorized       access, and can be retrieved and decrypted whenever needed.\n
   > User Authentication and Management: Supports multiple user accounts,       ensuring that only authorized users can access their hidden files through   robust authentication mechanisms.
   > Email OTP Verification: During signup and login, users receive OTPs via   email for verification, adding an extra layer of security.
   > User-Friendly Interface: The command-line interface is intuitive and       easy to navigate, making the signup, login, and file management processes   straightforward.
